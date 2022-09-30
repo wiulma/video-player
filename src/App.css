@@ -1,0 +1,21 @@
+:root {
+  --button-background: #000;
+  --button-text-color: #fff;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
