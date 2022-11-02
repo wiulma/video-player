@@ -1,14 +1,14 @@
 
 import {VideoContainer} from './components/video-container/VideoContainer'
-import {VideoPlayer} from './components/video-player/VideoPlayer'
+import {VideoPlayerContainer} from './components/video-player/VideoPlayerContainer'
 
 import './App.css'
 
 function App() {
   return (
-    <VideoContainer>
-      <VideoPlayer></VideoPlayer>
-    </VideoContainer>
+      <VideoContainer>
+        <VideoPlayerContainer></VideoPlayerContainer>
+      </VideoContainer>
   )
 }
 

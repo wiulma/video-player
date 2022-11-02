@@ -6,3 +6,11 @@
     flex-direction: row;
     justify-content: flex-start;
 }
+
+.video-container .action-container {
+    padding: .5rem;
+    color: var(--button-text-color);
+    background-color: #00f;
+    justify-content: space-around;
+    place-items: center;
+}

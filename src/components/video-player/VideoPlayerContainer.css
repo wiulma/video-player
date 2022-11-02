@@ -1,0 +1,39 @@
+:root {
+ --video-player-padding: .2rem;
+}
+
+.video-content {
+    width: 80%;
+    background-color: #0f0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding: 0 var(--video-player-padding);
+}
+
+.video-controls {
+    height: 6rem;
+    min-height: 30px;
+    background-color: #ff0;  /* rgba(123, 171, 219, .5);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    position: absolute;
+    bottom: -3rem;
+    transition: transform 500ms;
+    flex-direction: column;
+    width: calc(100% - calc(2 * var(--video-player-padding)));
+    gap: .2rem;
+}
+
+.video-controls.show {
+    transform: translateY(-3rem);
+}
+
+
+.video-content .action-container {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+}

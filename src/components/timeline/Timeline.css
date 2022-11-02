@@ -1,0 +1,22 @@
+.timeline {
+    background: red;
+    /* width: 300px; */
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 .3rem;
+}
+.timeline > .timer-container {
+    text-align: left;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.timeline progress {
+    accent-color: var(--progress-color);
+    width: 100%;
+}
+
